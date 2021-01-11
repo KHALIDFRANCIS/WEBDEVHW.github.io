@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title></title>
+		<style>
+
+			.fpban{
+				display: block;
+				width: 100%;
+			}
+
+			/* .text{
+			
+				height: auto;
+				display: grid;
+				grid-template-columns: 100%;
+				grid-gap: 20px;
+				justify-content: center;
+			} */
+
+			body{
+			background-color: #818181;
+			}
+			.gridz{ 		/*default desktop view*/
+				display: grid;
+				grid-template-columns: 20% 20% 20% 20%;
+				grid-gap: 20px;
+				text-align: center;
+				justify-content: center;
+       			padding-top: 3%;
+				
+			}
+
+			.gridz > div{
+				background-color: aquamarine;
+				padding: 1em;
+			}
+
+			/* .gridz > div:nth-child(even){
+				background-color: blue;
+			} */
+
+@media only screen and (max-width: 1500px){
+	.gridz{
+				display: grid;
+				grid-template-columns: 20% 20% 20% 20%;
+				grid-gap: 20px;
+				text-align: center;
+				justify-content: center;
+				
+			}
+}
+
+@media only screen and (max-width: 1000px){
+	.gridz{
+				display: grid;
+				grid-template-columns: 30% 30% ;
+				grid-gap: 20px;
+				text-align: center;
+				justify-content: center;
+				
+			}
+}
+
+@media only screen and (max-width: 600px){
+	.gridz{
+				display: grid;
+				grid-template-columns: 45%;
+				grid-gap: 20px;
+				text-align: center;
+				justify-content: center;
+				
+			}
+
+	.text{
+		display: grid;
+		grid-auto-columns:  100%;
+		/* text-align: center; */
+		}
+}
+
+  a:hover{
+    background-color: #FFFF00;
+  }
+
+  h2{
+				color: black;
+			}
+    
+  h4:hover{
+    text-decoration-color: chartreuse;
+  }
+
+  .text{
+  /* text-align: center; */
+  display: grid;
+	grid-template-columns: 30% 50%;
+        padding-top: 5%;
+        padding-left: 10%;
+        font-size: 25px;
+        font-family: Georgia;
+        text-align:justify;
+		height: auto;
+		display: grid;
+		grid-gap: 30px;
+		justify-content: left;
+  }
+
+
+		</style>
+	</head>
+	<body>
+
+		<img class = "fpban" src = "FPBANNERMK3.jpg">
+
+		<div class = "gridz">
+			<a href = "homefolio.html"><div><h2>HOME</h2></div></a>
+			<a href = "aboutfolio.html"><div><h2>ABOUT</h2></div></a>
+			<a href = "portfolio.html"><div><h2>PORTFOLIO</h2></div></a>
+			<a href = "contafolio.html"><div><h2>CONTACT</h2></div></a>
+		
+		</div>
+<!-- 
+		<img class = "pic" src = "KHALID.jpg"> -->
+
+		
+
+		<div class = "text"> 
+			<img class = "pic" src = "KHALID.jpg" style= "width: 100%">
+			I am a graduate student at Pace University majoring in Computer Science.
+		I currently hold an Associate's degree in Graphic Design from NYC College of Technology and a Bachelor's degree from Hunter College in Media Production.
+		At the moment, my current coursework taken is Mobile Web Development, Data Communications, and Parallel & Distributed Computing.
+		In terms of the field of computer science, my interests are in Application Development, Mobile Development, and Artificial Intelligence. 
+      
+      </div>
+    
+	</body>
+</html>

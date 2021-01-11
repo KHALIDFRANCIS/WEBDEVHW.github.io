@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title></title>
+		<style>
+
+			.fpban{
+				display: block;
+				width: 100%;
+			}
+
+			body{
+			background-color: #818181;
+			}
+			.gridz{ 		/*default desktop view*/
+				display: grid;
+				grid-template-columns: 20% 20% 20% 20%;
+				grid-gap: 20px;
+				text-align: center;
+				justify-content: center;
+        		padding-top: 3%;
+				
+			}
+
+			.gridz > div{
+				background-color: aquamarine;
+				padding: 1em;
+			}
+
+			/* .gridz > div:nth-child(even){
+				background-color: blue;
+			} */
+
+			.Portfolio{
+		padding-top:5%;
+		display: grid;
+		grid-template-columns: 20% 20% 20%;
+		grid-gap: 20px;
+		justify-content: center;
+
+	}
+
+@media only screen and (max-width: 1500px){
+	.gridz{
+				display: grid;
+				grid-template-columns: 20% 20% 20% 20%;
+				grid-gap: 20px;
+				text-align: center;
+				justify-content: center;
+				
+			}
+
+	.Portfolio{
+				display: grid;
+				grid-template-columns: 20% 20% 20%;
+				grid-gap: 20px;
+				justify-content: center;
+}
+}
+
+@media only screen and (max-width: 1000px){
+	.gridz{
+				display: grid;
+				grid-template-columns: 30% 30% ;
+				grid-gap: 20px;
+				text-align: center;
+				justify-content: center;
+				
+			}
+
+	.Portfolio{
+				display: grid;
+				grid-template-columns: 30% 30%;
+				grid-gap: 20px;
+				justify-content: center;
+			}
+	
+}
+
+@media only screen and (max-width: 600px){
+	.gridz{
+				display: grid;
+				grid-template-columns: 45%;
+				grid-gap: 20px;
+				text-align: center;
+				justify-content: center;
+				
+			}
+
+	.Portfolio{
+				display: grid;
+				grid-template-columns: 50%;
+				grid-gap: 20px;
+				justify-content: center;
+	}
+}
+
+	
+
+  a:hover{
+    background-color: #FFFF00;
+  }
+
+  h2{
+				color: black;
+			}
+    
+  h4:hover{
+    text-decoration-color: chartreuse;
+  }
+
+  .text{
+  text-align: center;
+  display: grid;
+				grid-template-columns: 75%;
+				/* grid-gap: 20px; */
+				/* text-align: center; */
+				/* justify-content: center; */
+        padding-top: 5%;
+        padding-left: 10%;
+        font-size: 25px;
+        font-family: Georgia;
+        text-align:center;
+  }
+
+
+		</style>
+	</head>
+	<body>
+
+		<img class = "fpban" src = "FPBANNERMK3.jpg">
+
+		<div class = "gridz">
+			<a href = "homefolio.html"><div><h2>HOME</h2></div></a>
+			<a href = "aboutfolio.html"><div><h2>ABOUT</h2></div></a>
+			<a href = "portfolio.html"><div><h2>PORTFOLIO</h2></div></a>
+			<a href = "contafolio.html"><div><h2>CONTACT</h2></div></a>
+		
+		</div>
+
+		<div class = "text"> This is my portfolio page, this is where the fun begins.
+      </div>
+
+	  <div class = "Portfolio">
+
+		  <a href = "hw1mk4.html">	<img src = "720s-PEEK.png" style = "width: 100%;"></a>
+		  <a href = "hw2.html">		<img src = "INV-PEEK.png" style = "width: 100%;"></a>
+		  <a href = "F1 REVIEW.jpg"><img src = "F1-PEEK.jpg" style = "width: 100%;"></a>
+		  <a href = "MONEY.jpeg">	<img src = "MONEY-PEEK.jpg" style = "width: 100%;"></a>
+		  <a href = "ASU.jpg">		<img src = "ASU-PEEK.jpg"	style = "width: 100%;"></a>
+		  <a href = "RAILS.jpg"> 	<img src = "RAILS-PEEK.jpg" style = "width: 100%;"></a>
+		  <a href = "COMPLEX.jpeg">	<img src = "STRUC-PEEK.jpg" style = "width: 100%;"></a>
+
+
+		  <!-- for tomorrow, add in the rest of the PEEK images and add href tags to them -->
+		  <!-- sort out positioning -->
+
+	  </div>
+    
+	</body>
+</html>

@@ -1,0 +1,140 @@
+<html>
+	<head>
+		<title> The 720S </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>	a{color: blue}
+				.cowl{color: white}
+				#chass {color: green}
+				#m720 {width: 75%}
+				body {
+			/*background-color: silver;*/
+			background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), 
+			url("https://icdn3.themanual.com/image/themanual/dt-geneva-mclaren-720s-7-1500x1000.jpg");
+			background-repeat: repeat;
+			width: 100%;
+			background-position:center;
+			background-attachment: fixed;
+
+			}
+			h4{
+				color: gray;
+			}
+			h2{
+				color: orange;
+			}
+			h3{
+				color: white;
+			}
+			h1{
+				color: orange;
+			}
+			
+			p.a {
+				font: 18px arial, sans-serif;
+				color: gray;
+				line-height:2px;
+			}
+
+			p.b {
+				font: 37px Georgia, serif;
+				color: orange;
+				line-height:2px;
+			}
+
+			p.c {
+				font: 50px Helvetica, sans-serif;
+				color: orange;
+				line-height:2px;
+			}
+
+			p.d {
+				font: 50px Georgia, serif;
+				color: orange;
+				line-height:2px;
+			}
+
+			.btn {
+  /*background-color: #f4511e;*/
+  background-image: url("http://webpage.pace.edu/kf49633n/2018_mclaren_720s_21_1920x1080.jpg");
+  background-size:100%;
+  border: none;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+  font-size: 24px;
+  /*width: 50%;*/
+  margin: 1px 2px;
+  opacity: 0.2;
+  transition: 1.5s;
+  /*image-width:30%;*/
+}
+
+.btn:hover {opacity: 1}
+
+td {border: 3px solid red;}
+			
+
+		</style>
+	</head>
+	<body>	
+			
+		<div style = "text-align: center">
+
+			<br>
+			<p class = "a">This is </p>
+			<p class = "b">Sleek</p>
+			<p class = "a">This is </p> 
+			<p class = "b">Aggressive</p>
+			<p class = "a">This is </p>
+			<p class = "b">Cutting Edge Design</p>
+			<!-- /Users/KFrancis/Desktop/MOBILE DEV/hw1/720s.mov -->
+			
+
+				<h4>This is the</h4> <h1><a class = "cowl" href = 
+					"https://cars.mclaren.com/en/super-series/720s"> McLaren 720S</a></h1> 	 
+			<p>
+
+				</p>
+
+
+				<video controls width=70% height= 70%
+					src="720s.mp4" controls>
+  <p>  <h4><a class = "cowl" href="720s.mp4"> Here is a link to the video, if needed.</a></h4> </p> 
+</video>
+	
+			<!-- <div style = "text-align: center">  -->
+			<button class="btn"><p class = "d">7 2 0 S</p></button>
+		
+	
+			<div style = "text-align: center"> 
+					<input type="button" onClick="OpenDoors()" value="Scroll down and Open The Doors" />
+				</div>
+				<br>
+				<br>
+
+			<img id = "m720" src = "720s-32.jpg">
+			</p>
+				<!-- // <input type="button" onclick="OpenDoors()" value="..." /> -->
+		</div>
+				
+				<script>
+					function OpenDoors(){
+						var image = document.getElementById('m720');
+						// alert('You have successfully opened the doors');
+						if (image.src.match("720s-32.jpg")) {
+                			image.src = "720s-31.jpg";
+            }
+            else {
+                image.src = "720s-32.jpg";
+            }
+					}
+
+
+				</script>
+	
+
+	
+
+	</body>
+</html>
+

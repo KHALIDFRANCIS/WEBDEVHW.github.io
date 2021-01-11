@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title></title>
+		<style>
+
+			.fpban{
+				display: block;
+				width: 100%;
+			}
+
+			body{
+			background-color: #818181;
+			}
+			.gridz{ 		/*default desktop view*/
+				display: grid;
+				grid-template-columns: 20% 20% 20% 20%;
+				grid-gap: 20px;
+				text-align: center;
+				justify-content: center;
+        		padding-top: 3%;
+				
+			}
+
+			.gridz > div{
+				background-color: aquamarine;
+				padding: 1em;
+			}
+
+			/* .gridz > div:nth-child(even){
+				background-color: blue;
+			} */
+
+@media only screen and (max-width: 1500px){
+	.gridz{
+				display: grid;
+				grid-template-columns: 20% 20% 20% 20%;
+				grid-gap: 20px;
+				text-align: center;
+				justify-content: center;
+				
+			}
+}
+
+@media only screen and (max-width: 1000px){
+	.gridz{
+				display: grid;
+				grid-template-columns: 30% 30% ;
+				grid-gap: 20px;
+				text-align: center;
+				justify-content: center;
+				
+			}
+}
+
+@media only screen and (max-width: 600px){
+	.gridz{
+				display: grid;
+				grid-template-columns: 45%;
+				grid-gap: 20px;
+				text-align: center;
+				justify-content: center;
+				
+			}
+}
+
+  a:hover{
+    background-color: #FFFF00;
+  }
+
+  h2{
+				color: black;
+			}
+    
+  h4:hover{
+    text-decoration-color: chartreuse;
+  }
+
+  .text{
+  text-align: center;
+  display: grid;
+				grid-template-columns: 75%;
+				/* grid-gap: 20px; */
+				/* text-align: center; */
+				/* justify-content: center; */
+        padding-top: 5%;
+        padding-left: 10%;
+        font-size: 25px;
+        font-family: Georgia;
+        text-align:justify;
+  }
+
+
+		</style>
+	</head>
+	<body>
+
+		<img class = "fpban" src = "FPBANNERMK3.jpg">
+
+		<div class = "gridz">
+			<a href = "homefolio.html"><div><h2>HOME</h2></div></a>
+			<a href = "aboutfolio.html"><div><h2>ABOUT</h2></div></a>
+			<a href = "portfolio.html"><div><h2>PORTFOLIO</h2></div></a>
+			<a href = "contafolio.html"><div><h2>CONTACT</h2></div></a>
+		
+		</div>
+
+    <div class = "text">This is Webpage consisting of my highlighted pieces from my creations along the line of Web Pages, Graphic Design, and Photography.
+      This webpage was created from the assignments given in the Mobile Web Development course under the guidance and teaching of Professor Haik Sahakian.
+      As the semester progresses, more work will be posted. 
+      Feel free to look around and if nothing else, feel free to just look at the layout. Thank you for visiting. Enjoy your Apple Jacks.
+      
+      </div>
+
+	</body>
+</html>
